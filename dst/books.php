@@ -22,9 +22,9 @@ include('selectaut.php');
          <div class="nav-list" id="nav">
             <ul class="nav-items">
                <li class="nav-links"><a href="index.php" class="links">Home</a></li>
-               <li class="nav-links"><a href="" class="links">Contact</a></li>
+               <li class="nav-links"><a href="gallery.php" class="links">Gallery</a></li>
                <li class="nav-links"><a href="books.php" class="links">Our Books</a></li>
-               <li class="nav-links"><a href="" class="links">Our Authers</a></li>
+               <li class="nav-links"><a href="auteur.php" class="links">Our Authers</a></li>
             </ul>
          </div>
       </nav>
@@ -42,7 +42,7 @@ include('selectaut.php');
                <input type="submit" name="insert" value="ok" class="btn">
             </form>
       </div>
-      <table>
+      <table class="tab">
         <?php while ($row = $q->fetch()) : ?>
             <tr>
                 <td><?php echo htmlspecialchars($row['Id']) ?></td>

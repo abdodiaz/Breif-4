@@ -120,15 +120,15 @@
   position: absolute;
   top: 25em;
   left: 20em;
-  width: 18vw;
-  height: 25vh;
+  width: 19vw;
+  height: 4vh;
   border: none;
 }
 
 .main-header .book-form .btn {
   position: absolute;
-  top: 25em;
-  left: 20em;
+  top: 30em;
+  left: 22em;
   width: 10vw;
   height: 4em;
   border: none;
@@ -215,5 +215,17 @@
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   color: #413C69;
+}
+
+.tab {
+  width: 100%;
+  position: relative;
+  top: 10em;
+  text-align: center;
+  background: #FFEFA1;
+}
+
+td {
+  border-right: 1px #000 solid;
 }
 /*# sourceMappingURL=book.css.map */

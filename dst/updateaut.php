@@ -23,6 +23,7 @@ catch (PDOException $e) {
 
 <body>
 
+
       <?php while ($row = $q->fetch()) : ?>
         <form action="updateaut1.php" method="post"  enctype="multipart/form-data">
         <label ><?php echo htmlspecialchars($row['id']) ?></label>
